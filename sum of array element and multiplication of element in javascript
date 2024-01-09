@@ -1,0 +1,14 @@
+let n = prompt("Enter the number :");
+
+let arr=[];
+for(let i=1;i<=n;i++){
+    arr[i-1] = i;
+}
+console.log(arr);
+let newArr = arr.reduce((pre,val) =>{
+    return pre + val;
+});
+let Arr = arr.reduce((pre,val) =>{
+    return pre * val;
+});
+console.log(newArr,Arr);
