@@ -1,0 +1,5 @@
+let names=["jasim","umar","nasim","aafreen","javed"];
+for(let i=0;i<5;i++){
+    console.log("Name: "+names[i]);
+    console.log(name.toUpperCase());
+}
