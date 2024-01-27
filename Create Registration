@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my website!</h1>
+    </header>
+    <main>
+        <ul>
+            <li> Apple </li>
+            <li> Banana </li>
+            <li> Orange </li>
+            <li> Mango </li>
+        </ul>
+        <ol>
+            <li> Potato </li>
+            <li> Carrot </li>
+            <li> Onion </li>
+        </ol>
+        <div> Hello </div>
+        <span> Jasim </span>
+        <br>
+        <table>
+            <caption><u><b> This is Student Table </b></u></caption>
+            <thead>
+            <tr>
+                <th> Student Name</th>
+                <th> Student RollNo</th>
+                <th> Student Course</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Jasim </td>
+                <td> 16234 </td>
+                <td> CSE </td>
+            </tr>
+            <tr>
+                <td> Ummar </td>
+                <td> 16290 </td>
+                <td> CSE </td>
+            </tr>
+        </tbody>
+        </table>
+        <hr>
+    </main>
+    <h3> Rgistration Form</h3>
+        <form action="/action.php">
+            <input type="text" placeholder="Enter name">
+            <br><br>
+            <input type="password" placeholder="Enter password">
+            <br><br>
+            <h4> Select your class </h4>
+        <label for="101">
+        <input type="Radio" values="XI" name="class" id="101">class XI
+    </label>
+    <br><br>
+    <label for="102">
+        <input type="Radio" values="XII" name="class" id="102">class XII
+    </label>
+    <br><br>
+    <h4> Select Your Subject</h4>
+    <label for="math">
+        <input type="checkbox" value="math" name="subject" id="101">Math
+    </label>
+    <br><br>
+    <label for="phy">
+        <input type="checkbox" value="phy" name="subject" id="102">Phy
+    </label>
+    <br><br>
+    <label for="science">
+        <input type="checkbox" value="science" name="subject" id="103">Science
+    </label>
+    <br><br>
+    <label for="computer Science">
+        <input type="checkbox" value="computer Science" name="subject" id="104">Computer Science
+    </label>
+    <br><br>
+    <button type="submit">Submit</button>
+    <br><br>
+    Selcet your state 
+    <select name="city">
+        <option value="Delhi">Delhi</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Bihar">Bihar</option>
+    </select>
+    <br><br>
+    <textarea name="Feedback" id="101" placeholder="Please give your feedback" here rows="7"></textarea>
+    <input type="submit" value="submit">
+        </form>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=qE8evjzlwbjSk_zM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://en.wikipedia.org/wiki/India"></iframe>
+</body>
+</html>
