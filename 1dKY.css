@@ -1,0 +1,20 @@
+/* *{
+    color:blue;
+} */
+.myclass{
+    color:red;
+} 
+button{
+    color:green;
+}
+#box{
+    color:blue;
+}
+#class{
+    color:aqua;
+    text-align: center;
+    text-decoration: blue line-through;
+}
+#class1{
+    text-align: right;
+}
