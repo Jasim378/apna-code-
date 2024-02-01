@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+   int a=0;
+   int b=1;
+    printf("Two number of sum is : %d",a+b);
+
+    return 0;
+}
