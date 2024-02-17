@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture Notification Login Page</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="card">
+        <div class="username">
+            <h2 class="head">Login</h2>
+            <label>Username</label>
+            <input type="text" name="Username" id="name" placeholder="Username">
+        </div>
+        <div class="password">
+            <label>Password</label>
+            <input type="password" name="Password" id="password" placeholder="Password">
+        <div class="btn">
+            <form action="/action.php"><button class="login-btn" onclick="myFunction()">Login</button>
+            </form>
+        </div>
+    </div>
+    <div class="forgot">
+        <form action="/action.php">
+            <button class="forgot" onclick="myFunction()">
+                Forgot Password?
+            </button>
+        </form>
+    </div>
+    <div class="forgot">
+        <form action="/action.php">
+            <button class="forgot" onclick="myFunction()">
+                Don't have an account?<span>  Sign up </span>
+            </button>
+        </form>
+        <br>
+    </div>
+    </div>
+</body>
+</html>
